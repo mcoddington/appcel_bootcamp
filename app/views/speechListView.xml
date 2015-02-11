@@ -1,0 +1,20 @@
+<Alloy>
+	<Collection src="job" />
+	<Window class="container">
+		<ListView id="speechList" onItemclick="onSpeechListItemClick">
+			<!-- <Templates>
+				<ItemTemplate name="row" id="row">
+					<View id="speechRow">
+						<ImageView bindId="image" class="logo" />
+						<View id="titleArea">
+							<Label bindId="title" class="title" />
+						</View>
+					</View>
+				</ItemTemplate>
+			</Templates> -->	
+					<ListSection dataCollection="job" dataFilter="listViewFilter">
+				<ListItem title="{title}" image="images/dojSeal.png"/>
+			</ListSection>
+		</ListView>>
+	</Window>
+</Alloy>

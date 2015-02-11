@@ -1,0 +1,14 @@
+
+".container" : {
+	top: 30,
+	backgroundColor:"white",
+	layout: "vertical"
+}
+
+"Label" : {
+	 color : "black"
+}
+
+"#close" : {
+	bottom: 10
+}

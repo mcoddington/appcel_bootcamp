@@ -1,0 +1,42 @@
+".container": {
+	backgroundColor: "white"
+}
+
+"#speechList": {
+	top: 30,
+	defaultItemTemplate: Titanium.UI.LIST_ITEM_TEMPLATE_SUBTITLE
+}
+
+"ListView": {
+	separatorStyle: Titanium.UI.iPhone.ListViewSeparatorStyle.NONE
+}
+
+"#speechRow": {
+	layout: "horizontal",
+	height: Titanium.UI.SIZE,
+	verticalAlign: "center",
+	top: 2,
+	bottom: 2
+}
+
+"#titleArea": {
+	layout: "vertical"
+}
+
+".logo": {
+	height: "90%"
+}
+
+".subtitle": {
+	font: {
+		fontSize: 10
+	}
+}
+
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000",
+	left: 10
+}
+

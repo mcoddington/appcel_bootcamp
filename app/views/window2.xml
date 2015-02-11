@@ -1,0 +1,7 @@
+<Alloy>
+	<Window title="Second Window" class="container">
+		 <Label id="speechTitle"></Label>
+		 <Label id="speechBody"></Label>
+		 <Label id="close" onClick="closeThis">Close</Label>
+	</Window>
+</Alloy>
